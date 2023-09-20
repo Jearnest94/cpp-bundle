@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 enum class status
 {
     todo,
@@ -19,7 +18,7 @@ struct item
     item(string name, status status) : name(name), status(status) {
     }
 
-    // Det är en destructor
+    // Detta är en destructor
     ~item() {
     }
 
